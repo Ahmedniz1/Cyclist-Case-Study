@@ -21,10 +21,32 @@ First, I downloaded the data from the given indexes (june 2022- May 2023). I've 
 
 ## Analysis and visualization
 The dataset contained around 5.8 million rides. Following are the visualizations made to understand the differences between a casual rider and an annually subscribed rider.
+### Total ride percentage
 ![Ride Percentages](./user_distribution_chart.png)
 #### Insights
 * Casual riders have ~39.7 percent of total rides
 * Annual members have ~60.3 percent of total rides
 * Annual members use the rides much more than casual riders
+
+### Bike Type
+![Bike Type](./bike_type_member_pie_chart.png)
+#### Insights
+* Casual members prefer electric and classic bikes with electric being the favourite type.
+* Casual members have a very small percentage of audience using docked bikes
+* Annual members only use electric and classic bikes with an almost equal share of rides.
+
+### Ride duration 
+![Bike Type](./Average_ride_duration.png)
+#### Insights
+* Casual members have an average ride time of ~28.21 minutes
+* Annual members have an average ride time of 12.46 minutes.
+* Casual members ride for longer distances and longer time. 
+
+### Weekly ride distribution 
+![Bike Type](./member_day_rides.png)
+#### Insights
+* Casual riders use the services more on weekends.  
+* Annual members use the services on more on weekdays.
+* Annual members probably use the ride service for daily commute while casual riders use for leisure activities. 
 
 ## Conclusion and recommendations
