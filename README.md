@@ -13,11 +13,8 @@ Data sources: [Divvy-Tripdata](https://divvy-tripdata.s3.amazonaws.com/index.htm
 Data indexes: June 2022 - May 2023</br>
 Data info: The dataset contains a unique identifier for ride (ride_id), it has rideable type which has 3 type of bikes (classic_byke, docked_byke, electric_byke). It has start and end time of ride, stations, lattitude and longitude. At the end it has member_casual, a column which tells whether the customer is annual member or casual rider. </br>
 
-## Data manipulation and cleaning
-### Data manipulation
+## Data manipulation 
 First, I downloaded the data from the given indexes (june 2022- May 2023). I've created a table for this specific dataset called "trips" in Postgresql and have imported the data in Postgresql. The table contains a total of 5829030 records. After setting up the data in postgres, I'm using psycopg2 library to connect the db to my python scripts. At the end I'm using python for the sql scripts along with visualizations.
-
-### Data Cleaning
 
 ## Analysis and visualization
 The dataset contained around 5.8 million rides. Following are the visualizations made to understand the differences between a casual rider and an annually subscribed rider.
@@ -73,4 +70,4 @@ After viewing all the above insights, following are the core differences I've no
 * Marketing schemes should be launched near parks and markets for casual riders.
 * Discounts should be provided in winter season to maintain the customer count.
 * Discounts should be provided in weekdays for casual members.
-* Free trial of monthly membership should be provided to casual customer to convert them into annual customers.
+* **Free trial** of monthly membership should be provided to casual customer to convert them into annual customers.
