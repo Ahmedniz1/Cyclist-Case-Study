@@ -40,34 +40,34 @@ The dataset contained around 5.8 million rides. Following are the visualizations
 #### Insights
 * Casual members have an average ride time of ~28.21 minutes
 * Annual members have an average ride time of 12.46 minutes.
-* Casual members ride for longer distances and longer time. 
+* Casual members ride for almost **2.5X longer duration**. 
 
 ### Weekly ride distribution 
 ![Bike Type](./visualizations/member_day_rides.png)
 #### Insights
-* Casual riders use the services more on weekends.  
-* Annual members use the services on more on weekdays.
-* Annual members probably use the ride service for daily commute while casual riders use for leisure activities. 
+* Casual riders use the services most on **weekends**.  
+* Annual members use the services on more on **weekdays**.
+* Annual members probably use the ride service for **daily commute** while casual riders use for **leisure activities**. 
 
 ### Hourly Bike distribution
 ![Hourly Bike rides](./visualizations/hourly_bike_rides.png)
 #### Insights
-* Members use the bike service heavily during commute hours (6:00 AM - 9:00 AM) and (4:00 PM - 7:00 PM).
+* Members use the bike service heavily during commute hours **(6:00 AM - 9:00 AM) and (4:00 PM - 7:00 PM)**.
 * Casual members have an almost similar percentage of rides throughout the day time.
 * The bar plot shows members use this service for commute daily.
 
 ### Monthly Bike distribution
 ![Monthly Bike rides](./visualizations/monthly_distribution.png)
 #### Insights
-* Casual members use the bike service mostly in summer-fall season.
-* Casual members rarely use the service in winter months.
-* The bar plot shows members use this service for commute daily.
+* Casual members use the bike service mostly in **summer-fall season**.
+* Casual members rarely use the service in **winter months**.
+* The bar plot shows members use this service for **commute daily**.
 
 ## Conclusion and recommendations
 After viewing all the above insights, following are the core differences I've noticed between the trends of casual riders and annual members.
 #### Insights
-* Casual members use this service for leisure activity.
-* Annual members use this service for daily commute.
+* Casual members use this service for **leisure activity**.
+* Annual members use this service for **daily commute**.
 
 #### Recommendations
 * Marketing schemes should be launched near parks and markets for casual riders.
